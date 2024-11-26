@@ -1,0 +1,299 @@
+HSET "movie:1" movie_name "Guardians of the Galaxy" category "Action" votes 704613 rating 8.1 release_year 2014 plot "A group of intergalactic criminals must pull together to stop a fanatical warrior with plans to purge the universe." poster "https://m.media-amazon.com/images/M/MV5BMTAwMjU5OTgxNjZeQTJeQWpwZ15BbWU4MDUxNDYxODEx._V1_SX300.jpg" imdb_id "tt2015381" 
+HSET "movie:2" movie_name "Interstellar" category "Adventure" votes 961763 rating 8.6 release_year 2014 plot "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival." poster "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg" imdb_id "tt0816692" 
+HSET "movie:3" movie_name "The Grand Budapest Hotel" category "Adventure" votes 492158 rating 8.1 release_year 2014 plot "A writer encounters the owner of an aging high-class hotel,who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge." poster "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_SX300.jpg" imdb_id "tt2278388" 
+HSET "movie:4" movie_name "Gone Girl" category "Crime" votes 589116 rating 8.1 release_year 2014 plot "With his wife's disappearance having become the focus of an intense media circus,a man sees the spotlight turned on him when it's suspected that he may not be innocent." poster "https://m.media-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt2267998" 
+HSET "movie:5" movie_name "The Imitation Game" category "Biography" votes 489175 rating 8.1 release_year 2014 
+HSET "movie:6" movie_name "John Wick" category "Action" votes 503014 rating 7.4 release_year 2014 plot "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took everything from him." poster "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt2911666" 
+HSET "movie:7" movie_name "X-Men: Days of Future Past" category "Action" votes 524078 rating 8.0 release_year 2014 
+HSET "movie:8" movie_name "Ouija: Origin of Evil" category "Horror" votes 6144 rating 6.6 release_year 2016 
+HSET "movie:9" movie_name "The Equalizer" category "Action" votes 235859 rating 7.2 release_year 2014 
+HSET "movie:10" movie_name "Maleficent" category "Action" votes 257707 rating 7.0 release_year 2014 
+HSET "movie:11" movie_name "Whiplash" category "Drama" votes 667323 rating 8.5 release_year 2014 plot "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential." poster "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt2582802" 
+HSET "movie:12" movie_name "Fury" category "Action" votes 312068 rating 7.6 release_year 2014 
+HSET "movie:13" movie_name "Kingsman: The Secret Service" category "Action" votes 410076 rating 7.7 release_year 2014 
+HSET "movie:14" movie_name "It Follows" category "Horror" votes 120440 rating 6.9 release_year 2014 
+HSET "movie:15" movie_name "Edge of Tomorrow" category "Action" votes 443643 rating 7.9 release_year 2014 
+HSET "movie:16" movie_name "The Theory of Everything" category "Biography" votes 275057 rating 7.7 release_year 2014 
+HSET "movie:17" movie_name "The Babadook" category "Drama" votes 185189 rating 6.8 release_year 2014 plot "A single mother and her child fall into a deep well of paranoia when an eerie children's book titled Mister Babadook manifests in their home." poster "https://m.media-amazon.com/images/M/MV5BMTk0NzMzODc2NF5BMl5BanBnXkFtZTgwOTYzNTM1MzE@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt2321549" 
+HSET "movie:18" movie_name "Divergent" category "Adventure" votes 412364 rating 6.7 release_year 2014 plot "In a world divided by factions based on virtues,Tris learns she's Divergent and won't fit in. When she discovers a plot to destroy Divergents,Tris and the mysterious Four must find out what makes Divergents dangerous before it's too late." poster "https://m.media-amazon.com/images/M/MV5BMTYxMzYwODE4OV5BMl5BanBnXkFtZTgwNDE5MzE2MDE@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt1840309" 
+HSET "movie:19" movie_name "Sin City: A Dame to Kill For" category "Action" votes 114899 rating 6.5 release_year 2014 
+HSET "movie:20" movie_name "Need for Speed" category "Action" votes 139153 rating 6.5 release_year 2014 
+HSET "movie:22" movie_name "Dracula Untold" category "Action" votes 141759 rating 6.3 release_year 2014 
+HSET "movie:23" movie_name "The Book of Life" category "Animation" votes 47048 rating 7.3 release_year 2014 
+HSET "movie:24" movie_name "The Purge: Anarchy" category "Action" votes 99115 rating 6.5 release_year 2014 
+HSET "movie:25" movie_name "Captain America: The Winter Soldier" category "Action" votes 510608 rating 7.8 release_year 2014 
+HSET "movie:26" movie_name "Transformers: Age of Extinction" category "Action" votes 246318 rating 5.7 release_year 2014 
+HSET "movie:27" movie_name "Teenage Mutant Ninja Turtles" category "Action" votes 172213 rating 5.9 release_year 2014 
+HSET "movie:28" movie_name "Lucifer" category "Crime" votes 58703 rating 8.3 release_year 2015 
+HSET "movie:29" movie_name "The Hobbit: The Battle of the Five Armies" category "Adventure" votes 363557 rating 7.4 release_year 2014 
+HSET "movie:30" movie_name "Clown" category "Horror" votes 12690 rating 5.7 release_year 2014 
+HSET "movie:31" movie_name "Birdman or (The Unexpected Virtue of Ignorance)" category "Comedy" votes 408054 rating 7.8 release_year 2014 
+HSET "movie:32" movie_name "The Evil Dead" category "Horror" votes 144850 rating 7.6 release_year 1981 
+HSET "movie:33" movie_name "The Giver" category "Drama" votes 88897 rating 6.5 release_year 2014 
+HSET "movie:34" movie_name "What We Do in the Shadows" category "Comedy" votes 73230 rating 7.6 release_year 2014 
+HSET "movie:35" movie_name "Shin Gojira" category "Action" votes 2915 rating 7.6 release_year 2016 
+HSET "movie:36" movie_name "The Maze Runner" category "Action" votes 318953 rating 6.8 release_year 2014 
+HSET "movie:37" movie_name "Nightcrawler" category "Crime" votes 304445 rating 7.9 release_year 2014 
+HSET "movie:38" movie_name "The Fault in Our Stars" category "Drama" votes 256899 rating 7.8 release_year 2014 
+HSET "movie:39" movie_name "Hercules" category "Action" votes 117904 rating 6.0 release_year 2014 
+HSET "movie:40" movie_name "Neighbors" category "Comedy" votes 224378 rating 6.4 release_year 2014 
+HSET "movie:41" movie_name "The Expendables 3" category "Action" votes 130394 rating 6.1 release_year 2014 
+HSET "movie:42" movie_name "The Lego Movie" category "Animation" votes 251297 rating 7.8 release_year 2014 
+HSET "movie:43" movie_name "Love Rosie" category "Comedy" votes 72052 rating 7.2 release_year 2014 
+HSET "movie:44" movie_name "Boyhood" category "Drama" votes 272604 rating 7.9 release_year 2014 
+HSET "movie:45" movie_name "American Sniper" category "Action" votes 333228 rating 7.3 release_year 2014 
+HSET "movie:46" movie_name "Big Hero 6" category "Animation" votes 288143 rating 7.9 release_year 2014 
+HSET "movie:47" movie_name "The Hunger Games: Mockingjay - Part 1" category "Adventure" votes 313261 rating 6.7 release_year 2014 plot "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends,Katniss spreads her wings as she fights to save Peeta and a nation moved by her courage." poster "https://m.media-amazon.com/images/M/MV5BMTcxNDI2NDAzNl5BMl5BanBnXkFtZTgwODM3MTc2MjE@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt1951265" 
+HSET "movie:48" movie_name "Noah" category "Action" votes 203170 rating 5.8 release_year 2014 
+HSET "movie:49" movie_name "Predestination" category "Drama" votes 172521 rating 7.4 release_year 2014 
+HSET "movie:50" movie_name "Unbroken" category "Biography" votes 106707 rating 7.2 release_year 2014 
+HSET "movie:51" movie_name "Big Eyes" category "Biography" votes 58303 rating 7.0 release_year 2014 
+HSET "movie:52" movie_name "I Origins" category "Drama" votes 78760 rating 7.3 release_year 2014 
+HSET "movie:53" movie_name "Inherent Vice" category "Comedy" votes 64396 rating 6.7 release_year 2014 
+HSET "movie:54" movie_name "Relatos salvajes" category "Comedy" votes 96058 rating 8.1 release_year 2014 
+HSET "movie:55" movie_name "The Taking" category "Horror" votes 16365 rating 6.0 release_year 2014 
+HSET "movie:56" movie_name "300: Rise of an Empire" category "Action" votes 229109 rating 6.2 release_year 2014 
+HSET "movie:57" movie_name "22 Jump Street" category "Action" votes 265037 rating 7.1 release_year 2014 
+HSET "movie:58" movie_name "The Best of Me" category "Drama" votes 45116 rating 6.7 release_year 2014 
+HSET "movie:59" movie_name "Vampire Academy" category "Action" votes 42267 rating 5.6 release_year 2014 
+HSET "movie:60" movie_name "Seventh Son" category "Action" votes 56323 rating 5.5 release_year 2014 
+HSET "movie:61" movie_name "Deliver Us from Evil" category "Horror" votes 55582 rating 6.2 release_year 2014 
+HSET "movie:62" movie_name "Dawn of the Planet of the Apes" category "Action" votes 323652 rating 7.6 release_year 2014 
+HSET "movie:63" movie_name "Exodus: Gods and Kings" category "Action" votes 131331 rating 6.1 release_year 2014 
+HSET "movie:64" movie_name "Annabelle" category "Horror" votes 85055 rating 5.4 release_year 2014 
+HSET "movie:65" movie_name "The Loft" category "Mystery" votes 35542 rating 6.3 release_year 2014 
+HSET "movie:66" movie_name "Tusk" category "Comedy" votes 32399 rating 5.4 release_year 2014 
+HSET "movie:67" movie_name "The Interview" category "Comedy" votes 251910 rating 6.6 release_year 2014 
+HSET "movie:68" movie_name "The Voices" category "Comedy" votes 36321 rating 6.3 release_year 2014 
+HSET "movie:69" movie_name "I Frankenstein" category "Action" votes 67009 rating 5.1 release_year 2014 
+HSET "movie:70" movie_name "The Judge" category "Crime" votes 140247 rating 7.4 release_year 2014 
+HSET "movie:71" movie_name "Burnt" category "Comedy" votes 66999 rating 6.6 release_year 2015 
+HSET "movie:72" movie_name "If I Stay" category "Drama" votes 86751 rating 6.8 release_year 2014 
+HSET "movie:73" movie_name "As Above So Below" category "Horror" votes 52008 rating 6.2 release_year 2014 
+HSET "movie:74" movie_name "3 Days to Kill" category "Action" votes 70604 rating 6.2 release_year 2014 
+HSET "movie:75" movie_name "Before We Go" category "Comedy" votes 48623 rating 6.8 release_year 2014 plot "Two strangers stuck in Manhattan for the night grow into each other's most trusted confidants when an evening of unexpected adventure forces them to confront their fears and take control of their lives." poster "https://m.media-amazon.com/images/M/MV5BOTMxNzE0NjY4NV5BMl5BanBnXkFtZTgwMjIxNjIzNjE@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:76" movie_name "Non-Stop" category "Action" votes 242556 rating 6.9 release_year 2014 plot "An air marshal springs into action during a transatlantic flight after receiving a series of text messages demanding $150 million into an off-shore account,or someone will die every 20 minutes." poster "https://m.media-amazon.com/images/M/MV5BOTI3NzcxMjkzMl5BMl5BanBnXkFtZTgwMDY0NTQ0MDE@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:77" movie_name "That Awkward Moment" category "Comedy" votes 95104 rating 6.1 release_year 2014 plot "Three best friends find themselves where we've all been - at that confusing moment in every dating relationship when you have to decide 'So...where is this going?'" poster "https://m.media-amazon.com/images/M/MV5BMjExODEyMjMwNV5BMl5BanBnXkFtZTgwMTAyODM1MDE@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:78" movie_name "Vincent" category "Short" votes 18284 rating 8.4 release_year 1982 
+HSET "movie:79" movie_name "Blended" category "Comedy" votes 89403 rating 6.5 release_year 2014 
+HSET "movie:80" movie_name "The Guest" category "Action" votes 65590 rating 6.7 release_year 2014 
+HSET "movie:81" movie_name "The Other Woman" category "Comedy" votes 106752 rating 6.0 release_year 2014 
+HSET "movie:82" movie_name "Left Behind" category "Action" votes 25659 rating 3.1 release_year 2014 
+HSET "movie:83" movie_name "Annie" category "Comedy" votes 25486 rating 5.3 release_year 2014 
+HSET "movie:84" movie_name "Cybernatural (aka Unfriended)" category "Horror" votes 65166 rating 5.5 release_year 2014 plot "A group of online chat room friends find themselves haunted by a mysterious,supernatural force using the account of their dead friend." poster "https://m.media-amazon.com/images/M/MV5BMzdlNWI2MjYtMWY3ZC00N2EzLWIzNTgtZDY2NGI4OTY3Yzc5XkEyXkFqcGdeQXVyMjQwMjk0NjI@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:85" movie_name "The Gambler" category "Crime" votes 62581 rating 6.0 release_year 2014 plot "Literature professor and gambler Jim Bennett's debt causes him to borrow money from his mother and a loan shark. Further complicating his situation,is his relationship with one of his students. Will Bennett risk his life for a second chance?" poster "https://m.media-amazon.com/images/M/MV5BMjA5MjIzODE3N15BMl5BanBnXkFtZTgwNzUwNzYwMzE@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:86" movie_name "The Salvation" category "Drama" votes 24481 rating 6.8 release_year 2014 
+HSET "movie:87" movie_name "A Million Ways to Die in the West" category "Comedy" votes 138651 rating 6.1 release_year 2014 
+HSET "movie:88" movie_name "Testament of Youth" category "Biography" votes 15500 rating 7.3 release_year 2014 
+HSET "movie:89" movie_name "Hunt for the Wilderpeople" category "Adventure" votes 22696 rating 8.0 release_year 2016 
+HSET "movie:90" movie_name "Transcendence" category "Drama" votes 176429 rating 6.3 release_year 2014 
+HSET "movie:91" movie_name "Sex Tape" category "Comedy" votes 86018 rating 5.1 release_year 2014 
+HSET "movie:92" movie_name "Honeytrap" category "Crime" votes 325 rating 5.6 release_year 2014 
+HSET "movie:93" movie_name "X+Y" category "Drama" votes 19609 rating 7.2 release_year 2014 
+HSET "movie:94" movie_name "Creep" category "Horror" votes 14696 rating 6.2 release_year 2014 
+HSET "movie:95" movie_name "The Drop" category "Crime" votes 109038 rating 7.1 release_year 2014 
+HSET "movie:96" movie_name "Ich seh ich seh" category "Drama" votes 22916 rating 6.7 release_year 2014 
+HSET "movie:97" movie_name "Eliza Graves" category "Drama" votes 36059 rating 6.8 release_year 2014 
+HSET "movie:98" movie_name "Horrible Bosses 2" category "Comedy" votes 117742 rating 6.3 release_year 2014 
+HSET "movie:99" movie_name "Jack Ryan: Shadow Recruit" category "Action" votes 100550 rating 6.2 release_year 2014 
+HSET "movie:100" movie_name "Man Down" category "Drama" votes 414 rating 6.5 release_year 2015 
+HSET "movie:102" movie_name "The Revenant" category "Adventure" votes 441653 rating 8.1 release_year 2015 
+HSET "movie:103" movie_name "Joy" category "Biography" votes 83047 rating 6.6 release_year 2015 
+HSET "movie:104" movie_name "Spectre" category "Action" votes 287494 rating 6.8 release_year 2015 
+HSET "movie:105" movie_name "The VVitch: A New-England Folktale" category "Horror" votes 79688 rating 6.7 release_year 2015 
+HSET "movie:106" movie_name "The Big Short" category "Biography" votes 206783 rating 7.8 release_year 2015 
+HSET "movie:107" movie_name "Jurassic World" category "Action" votes 429565 rating 7.0 release_year 2015 
+HSET "movie:108" movie_name "Mad Max: Fury Road" category "Action" votes 578046 rating 8.1 release_year 2015 
+HSET "movie:109" movie_name "The Martian" category "Adventure" votes 506641 rating 8.0 release_year 2015 
+HSET "movie:110" movie_name "The Hateful Eight" category "Crime" votes 294908 rating 7.9 release_year 2015 
+HSET "movie:111" movie_name "The Danish Girl" category "Biography" votes 92054 rating 7.0 release_year 2015 
+HSET "movie:112" movie_name "Sicario" category "Action" votes 212880 rating 7.6 release_year 2015 
+HSET "movie:113" movie_name "Avengers: Age of Ultron" category "Action" votes 479512 rating 7.5 release_year 2015 
+HSET "movie:114" movie_name "Spotlight" category "Biography" votes 220052 rating 8.1 release_year 2015 
+HSET "movie:115" movie_name "Room" category "Drama" votes 182004 rating 8.2 release_year 2015 
+HSET "movie:116" movie_name "Fifty Shades of Grey" category "Drama" votes 224710 rating 4.1 release_year 2015 
+HSET "movie:117" movie_name "Ex Machina" category "Drama" votes 304335 rating 7.7 release_year 2015 
+HSET "movie:118" movie_name "The Lobster" category "Comedy" votes 90934 rating 7.1 release_year 2015 
+HSET "movie:119" movie_name "Mr. Right" category "Action" votes 22752 rating 6.3 release_year 2015 
+HSET "movie:120" movie_name "Mission: Impossible - Rogue Nation" category "Action" votes 241599 rating 7.4 release_year 2015 
+HSET "movie:121" movie_name "The Hunger Games: Mockingjay - Part 2" category "Adventure" votes 179028 rating 6.6 release_year 2015 plot "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem." poster "https://m.media-amazon.com/images/M/MV5BNjQzNDI2NTU1Ml5BMl5BanBnXkFtZTgwNTAyMDQ5NjE@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt1951266" 
+HSET "movie:122" movie_name "P.S. I Love You" category "Drama" votes 170878 rating 7.1 release_year 2007 
+HSET "movie:123" movie_name "Black Mass" category "Biography" votes 123475 rating 7.0 release_year 2015 
+HSET "movie:124" movie_name "In the Heart of the Sea" category "Action" votes 79623 rating 6.9 release_year 2015 
+HSET "movie:125" movie_name "By the Sea" category "Drama" votes 9662 rating 5.3 release_year 2015 
+HSET "movie:126" movie_name "Knock Knock" category "Drama" votes 47192 rating 4.9 release_year 2015 
+HSET "movie:127" movie_name "Inside Out" category "Animation" votes 367848 rating 8.2 release_year 2015 
+HSET "movie:128" movie_name "Straight Outta Compton" category "Biography" votes 127258 rating 7.9 release_year 2015 
+HSET "movie:130" movie_name "The Invitation" category "Thriller" votes 28593 rating 6.7 release_year 2015 
+HSET "movie:131" movie_name "Brooklyn" category "Drama" votes 82468 rating 7.5 release_year 2015 
+HSET "movie:132" movie_name "Bridge of Spies" category "Drama" votes 192125 rating 7.6 release_year 2015 
+HSET "movie:133" movie_name "Cinderella" category "Drama" votes 107389 rating 7.0 release_year 2015 
+HSET "movie:134" movie_name "Green Room" category "Crime" votes 41386 rating 7.1 release_year 2015 
+HSET "movie:135" movie_name "Steve Jobs" category "Biography" votes 102485 rating 7.2 release_year 2015 
+HSET "movie:136" movie_name "Krampus" category "Comedy" votes 33237 rating 6.2 release_year 2015 
+HSET "movie:137" movie_name "Furious Seven" category "Action" votes 284316 rating 7.2 release_year 2015 
+HSET "movie:138" movie_name "Crimson Peak" category "Drama" votes 88501 rating 6.6 release_year 2015 
+HSET "movie:139" movie_name "Fathers & Daughters" category "Drama" votes 12242 rating 7.1 release_year 2015 
+HSET "movie:140" movie_name "Terminator Genisys" category "Action" votes 194182 rating 6.5 release_year 2015 
+HSET "movie:141" movie_name "Legends of Tomorrow" category "Action" votes 42082 rating 7.1 release_year 2016 
+HSET "movie:142" movie_name "Spy" category "Action" votes 176403 rating 7.1 release_year 2015 
+HSET "movie:143" movie_name "Eye in the Sky" category "Drama" votes 44086 rating 7.3 release_year 2015 
+HSET "movie:144" movie_name "Everest" category "Adventure" votes 142142 rating 7.1 release_year 2015 
+HSET "movie:145" movie_name "The Man Who Knew Infinity" category "Biography" votes 18444 rating 7.2 release_year 2015 
+HSET "movie:146" movie_name "The Visit" category "Horror" votes 70878 rating 6.2 release_year 2015 
+HSET "movie:147" movie_name "Carol" category "Drama" votes 66848 rating 7.2 release_year 2015 
+HSET "movie:148" movie_name "Sister Sister" category "Comedy" votes 8021 rating 6.1 release_year 1994 
+HSET "movie:149" movie_name "The Intern" category "Comedy" votes 142646 rating 7.2 release_year 2015 
+HSET "movie:150" movie_name "Demolition" category "Drama" votes 42400 rating 7.0 release_year 2015 
+HSET "movie:151" movie_name "Goosebumps" category "Adventure" votes 51870 rating 6.3 release_year 2015 
+HSET "movie:152" movie_name "Hardcore Henry" category "Action" votes 48460 rating 6.8 release_year 2015 
+HSET "movie:153" movie_name "Desierto" category "Drama" votes 2618 rating 5.8 release_year 2015 
+HSET "movie:154" movie_name "The Unspoken" category "Thriller" votes 423 rating 4.9 release_year 2015 
+HSET "movie:155" movie_name "Trainwreck" category "Comedy" votes 98763 rating 6.3 release_year 2015 
+HSET "movie:156" movie_name "Creed" category "Drama" votes 157387 rating 7.7 release_year 2015 
+HSET "movie:157" movie_name "Southpaw" category "Drama" votes 154514 rating 7.4 release_year 2015 
+HSET "movie:158" movie_name "Victor Frankenstein" category "Drama" votes 32516 rating 6.0 release_year 2015 
+HSET "movie:159" movie_name "Pitch Perfect 2" category "Comedy" votes 101190 rating 6.5 release_year 2015 
+HSET "movie:160" movie_name "Colonia" category "Drama" votes 22234 rating 7.1 release_year 2015 
+HSET "movie:161" movie_name "San Andreas" category "Action" votes 152249 rating 6.1 release_year 2015 
+HSET "movie:162" movie_name "The Age of Adaline" category "Drama" votes 99943 rating 7.2 release_year 2015 
+HSET "movie:163" movie_name "Point Break" category "Action" votes 38527 rating 5.3 release_year 2015 plot "A young FBI agent infiltrates an extraordinary team of extreme sports athletes he suspects of masterminding a string of unprecedented,sophisticated corporate heists." poster "https://m.media-amazon.com/images/M/MV5BMjIxNDkzOTAyNV5BMl5BanBnXkFtZTgwNjEyOTY3NjE@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:164" movie_name "Into the Forest" category "Drama" votes 5638 rating 6.0 release_year 2015 
+HSET "movie:165" movie_name "Hotel Transylvania 2" category "Animation" votes 61666 rating 6.7 release_year 2015 
+HSET "movie:166" movie_name "Pan" category "Adventure" votes 43442 rating 5.8 release_year 2015 
+HSET "movie:167" movie_name "The Dressmaker" category "Drama" votes 25597 rating 7.1 release_year 2015 
+HSET "movie:168" movie_name "Maze Runner: The Scorch Trials" category "Action" votes 146153 rating 6.4 release_year 2015 
+HSET "movie:169" movie_name "Youth" category "Comedy" votes 45576 rating 7.4 release_year 2015 
+HSET "movie:170" movie_name "Vacation" category "Adventure" votes 69598 rating 6.1 release_year 2015 
+HSET "movie:171" movie_name "Bone Tomahawk" category "Adventure" votes 38814 rating 7.1 release_year 2015 
+HSET "movie:172" movie_name "Scouts Guide to the Zombie Apocalypse" category "Action" votes 28124 rating 6.3 release_year 2015 
+HSET "movie:173" movie_name "Tomorrowland" category "Action" votes 132793 rating 6.5 release_year 2015 
+HSET "movie:174" movie_name "The Gift" category "Mystery" votes 86698 rating 7.1 release_year 2015 plot "A young married couple's lives are thrown into a harrowing tailspin when an acquaintance from the husband's past brings mysterious gifts and a horrifying secret to light after more than 20 years." poster "https://m.media-amazon.com/images/M/MV5BMTQzMjM2NjM1Nl5BMl5BanBnXkFtZTgwMDM1MjQyNTE@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:175" movie_name "The Last Witch Hunter" category "Action" votes 63434 rating 6.0 release_year 2015 
+HSET "movie:176" movie_name "Insurgent" category "Adventure" votes 160386 rating 6.3 release_year 2015 
+HSET "movie:177" movie_name "The DUFF" category "Comedy" votes 79071 rating 6.5 release_year 2015 plot "A high school senior instigates a social pecking order revolution after finding out that she has been labeled the DUFF - Designated Ugly Fat Friend - by her prettier,more popular counterparts." poster "https://m.media-amazon.com/images/M/MV5BMTc3OTg3MDUwN15BMl5BanBnXkFtZTgwMTAwMTkxNDE@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:178" movie_name "The Good Dinosaur" category "Animation" votes 68749 rating 6.8 release_year 2015 
+HSET "movie:179" movie_name "Focus" category "Comedy" votes 155186 rating 6.6 release_year 2015 
+HSET "movie:180" movie_name "Jupiter Ascending" category "Action" votes 142878 rating 5.4 release_year 2015 
+HSET "movie:181" movie_name "Fantastic Four" category "Action" votes 114717 rating 4.3 release_year 2015 
+HSET "movie:182" movie_name "Concussion" category "Biography" votes 51021 rating 7.1 release_year 2015 
+HSET "movie:183" movie_name "Muhammad: The Messenger of God" category "Biography" votes 4266 rating 8.1 release_year 2015 
+HSET "movie:184" movie_name "Equals" category "Drama" votes 10357 rating 6.1 release_year 2015 
+HSET "movie:185" movie_name "Magic Mike XXL" category "Comedy" votes 39910 rating 5.7 release_year 2015 
+HSET "movie:186" movie_name "The Longest Ride" category "Drama" votes 53050 rating 7.1 release_year 2015 
+HSET "movie:187" movie_name "Daddy's Home" category "Comedy" votes 59706 rating 6.1 release_year 2015 
+HSET "movie:188" movie_name "Knight of Cups" category "Drama" votes 14456 rating 5.7 release_year 2015 
+HSET "movie:189" movie_name "The Ridiculous 6" category "Comedy" votes 28505 rating 4.9 release_year 2015 
+HSET "movie:190" movie_name "Ted 2" category "Comedy" votes 123758 rating 6.4 release_year 2015 
+HSET "movie:191" movie_name "Minions" category "Animation" votes 148448 rating 6.4 release_year 2015 
+HSET "movie:192" movie_name "Macbeth" category "Drama" votes 37044 rating 6.7 release_year 2015 
+HSET "movie:193" movie_name "The Final Girls" category "Comedy" votes 20599 rating 6.6 release_year 2015 plot "A young woman grieving the loss of her mother,a famous scream queen from the 1980s,finds herself pulled into the world of her mom's most famous movie. Reunited,the women must fight off the film's maniacal killer." poster "https://m.media-amazon.com/images/M/MV5BMjI4Nzk2NzAzOV5BMl5BanBnXkFtZTgwNjI1NzY4NjE@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt2118624" 
+HSET "movie:194" movie_name "A Bigger Splash" category "Crime" votes 10315 rating 6.4 release_year 2015 
+HSET "movie:195" movie_name "Chappie" category "Action" votes 177519 rating 6.9 release_year 2015 
+HSET "movie:196" movie_name "En man som heter Ove" category "Comedy" votes 7806 rating 7.6 release_year 2015 
+HSET "movie:197" movie_name "Doctor Strange" category "Action" votes 71532 rating 8.0 release_year 2016 
+HSET "movie:198" movie_name "Jack Reacher: Never Go Back" category "Action" votes 130230 rating 6.1 release_year 2016 plot "Jack Reacher must uncover the truth behind a major government conspiracy in order to clear his name while on the run as a fugitive from the law." poster "https://m.media-amazon.com/images/M/MV5BODQ3ODQ3NDI4NV5BMl5BanBnXkFtZTgwMDY1Mzk5OTE@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt3393786" 
+HSET "movie:199" movie_name "Inferno" category "Action" votes 28671 rating 6.4 release_year 2016 
+HSET "movie:200" movie_name "Sausage Party" category "Animation" votes 61333 rating 6.5 release_year 2016 
+HSET "movie:201" movie_name "The Accountant" category "Action" votes 27335 rating 7.7 release_year 2016 
+HSET "movie:202" movie_name "Nocturnal Animals" category "Drama" votes 2060 rating 8.1 release_year 2016 
+HSET "movie:204" movie_name "Suicide Squad" category "Action" votes 249658 rating 6.6 release_year 2016 
+HSET "movie:205" movie_name "Boo! A Madea Halloween" category "Comedy" votes 1851 rating 4.7 release_year 2016 
+HSET "movie:206" movie_name "Split" category "Horror" votes 331 rating 8.1 release_year 2016 
+HSET "movie:207" movie_name "Miss Peregrine's Home for Peculiar Children" category "Adventure" votes 31522 rating 7.0 release_year 2016 
+HSET "movie:208" movie_name "Keeping Up with the Joneses" category "Action" votes 1964 rating 5.8 release_year 2016 
+HSET "movie:209" movie_name "Hacksaw Ridge" category "Biography" votes 6904 rating 8.8 release_year 2016 
+HSET "movie:210" movie_name "Trolls" category "Animation" votes 3307 rating 6.7 release_year 2016 
+HSET "movie:211" movie_name "Captain Fantastic" category "Comedy" votes 30203 rating 8.0 release_year 2016 
+HSET "movie:212" movie_name "Star Trek Beyond" category "Action" votes 111125 rating 7.2 release_year 2016 
+HSET "movie:213" movie_name "Bad Moms" category "Comedy" votes 30510 rating 6.3 release_year 2016 
+HSET "movie:214" movie_name "Ghostbusters" category "Action" votes 111399 rating 5.4 release_year 2016 
+HSET "movie:215" movie_name "Arrival" category "Drama" votes 2396 rating 8.5 release_year 2016 
+HSET "movie:216" movie_name "Don't Breathe" category "Crime" votes 55841 rating 7.3 release_year 2016 
+HSET "movie:217" movie_name "Nerve" category "Adventure" votes 37601 rating 6.7 release_year 2016 
+HSET "movie:218" movie_name "Finding Dory" category "Animation" votes 87660 rating 7.6 release_year 2016 
+HSET "movie:219" movie_name "Gods of Egypt" category "Action" votes 60592 rating 5.5 release_year 2016 
+HSET "movie:220" movie_name "X-Men: Apocalypse" category "Action" votes 210509 rating 7.2 release_year 2016 
+HSET "movie:221" movie_name "Deadpool" category "Action" votes 533503 rating 8.1 release_year 2016 
+HSET "movie:222" movie_name "Independence Day: Resurgence" category "Action" votes 93353 rating 5.4 release_year 2016 
+HSET "movie:223" movie_name "The BFG" category "Adventure" votes 21997 rating 6.6 release_year 2016 
+HSET "movie:224" movie_name "Anthropoid" category "Biography" votes 8307 rating 7.3 release_year 2016 
+HSET "movie:225" movie_name "The Magnificent Seven" category "Action" votes 35670 rating 7.1 release_year 2016 
+HSET "movie:226" movie_name "Deepwater Horizon" category "Action" votes 19531 rating 7.5 release_year 2016 
+HSET "movie:227" movie_name "The Infiltrator" category "Biography" votes 20436 rating 7.1 release_year 2016 
+HSET "movie:228" movie_name "Lights Out" category "Horror" votes 43426 rating 6.5 release_year 2016 
+HSET "movie:229" movie_name "In a Valley of Violence" category "Western" votes 1942 rating 6.0 release_year 2016 
+HSET "movie:230" movie_name "Zootopia" category "Animation" votes 216939 rating 8.1 release_year 2016 
+HSET "movie:231" movie_name "The Legend of Tarzan" category "Action" votes 80332 rating 6.4 release_year 2016 
+HSET "movie:232" movie_name "Warcraft" category "Action" votes 154327 rating 7.1 release_year 2016 
+HSET "movie:233" movie_name "Captain America: Civil War" category "Action" votes 627228 rating 7.8 release_year 2016 plot "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man." poster "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:234" movie_name "Billy Lynn's Long Halftime Walk" category "Drama" votes 348 rating 6.4 release_year 2016 
+HSET "movie:235" movie_name "Moonlight" category "Drama" votes 2184 rating 8.7 release_year 2016 plot "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood,adolescence,and burgeoning adulthood." poster "https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_SX300.jpg" 
+HSET "movie:236" movie_name "American Pastoral" category "Crime" votes 742 rating 6.2 release_year 2016 
+HSET "movie:237" movie_name "Me Before You" category "Drama" votes 82868 rating 7.5 release_year 2016 
+HSET "movie:238" movie_name "Batman v Superman: Dawn of Justice" category "Action" votes 415255 rating 6.8 release_year 2016 
+HSET "movie:239" movie_name "Alice Through the Looking Glass" category "Adventure" votes 37184 rating 6.3 release_year 2016 
+HSET "movie:240" movie_name "Shivaay" category "Action" votes 4948 rating 7.2 release_year 2016 
+HSET "movie:241" movie_name "King Cobra" category "Crime" votes 928 rating 5.8 release_year 2016 plot "Veteran gay pornography producer Stephen battles two rival producers over the rights to his underage porn star creation,Brent Corrigan,with deadly results." poster "https://m.media-amazon.com/images/M/MV5BMTU1Njk2NzMxOF5BMl5BanBnXkFtZTgwMzY4ODUxMDI@._V1_SX300.jpg" 
+HSET "movie:242" movie_name "The Conjuring 2" category "Horror" votes 108550 rating 7.5 release_year 2016 
+HSET "movie:243" movie_name "Sully" category "Biography" votes 34289 rating 7.9 release_year 2016 
+HSET "movie:244" movie_name "Mike and Dave Need Wedding Dates" category "Adventure" votes 30530 rating 6.1 release_year 2016 
+HSET "movie:245" movie_name "The Whole Truth" category "Drama" votes 3888 rating 6.0 release_year 2016 
+HSET "movie:246" movie_name "Imperium" category "Crime" votes 14516 rating 6.5 release_year 2016 
+HSET "movie:247" movie_name "Neruda" category "Biography" votes 812 rating 7.3 release_year 2016 
+HSET "movie:248" movie_name "Masterminds" category "Action" votes 3254 rating 5.8 release_year 2016 
+HSET "movie:249" movie_name "Nine Lives" category "Comedy" votes 19857 rating 5.3 release_year 2016 plot "A stuffy businessman finds himself trapped inside the body of his family's cat." poster "https://m.media-amazon.com/images/M/MV5BMzEzMjkwMjc3NV5BMl5BanBnXkFtZTgwMzc0NjY5ODE@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:250" movie_name "The Nice Guys" category "Action" votes 116011 rating 7.4 release_year 2016 
+HSET "movie:252" movie_name "Central Intelligence" category "Action" votes 66143 rating 6.4 release_year 2016 
+HSET "movie:253" movie_name "The Siege of Jadotville" category "Action" votes 6428 rating 7.4 release_year 2016 
+HSET "movie:254" movie_name "The Shallows" category "Drama" votes 54247 rating 6.4 release_year 2016 
+HSET "movie:255" movie_name "The Jungle Book" category "Adventure" votes 151342 rating 7.6 release_year 2016 
+HSET "movie:256" movie_name "Blood Father" category "Action" votes 25837 rating 6.5 release_year 2016 
+HSET "movie:257" movie_name "The Secret Life of Pets" category "Animation" votes 63437 rating 6.7 release_year 2016 
+HSET "movie:258" movie_name "Storks" category "Animation" votes 5798 rating 7.0 release_year 2016 
+HSET "movie:259" movie_name "The Neon Demon" category "Horror" votes 29895 rating 6.4 release_year 2016 
+HSET "movie:260" movie_name "Tokyo Zance" category "Comedy" votes 5 rating 5.4 release_year 2001 
+HSET "movie:261" movie_name "Snowden" category "Biography" votes 12257 rating 7.4 release_year 2016 
+HSET "movie:262" movie_name "The Purge: Election Year" category "Action" votes 38837 rating 6.0 release_year 2016 
+HSET "movie:263" movie_name "Bleed for This" category "Biography" votes 382 rating 6.5 release_year 2016 
+HSET "movie:264" movie_name "Now You See Me 2" category "Action" votes 112664 rating 6.5 release_year 2016 
+HSET "movie:265" movie_name "Free State of Jones" category "Action" votes 16935 rating 6.9 release_year 2016 
+HSET "movie:266" movie_name "Bridget Jones's Baby" category "Comedy" votes 16892 rating 7.3 release_year 2016 
+HSET "movie:267" movie_name "Max Steel" category "Action" votes 897 rating 4.9 release_year 2016 
+HSET "movie:268" movie_name "Teenage Mutant Ninja Turtles: Out of the Shadows" category "Action" votes 45213 rating 6.1 release_year 2016 
+HSET "movie:269" movie_name "Mascots" category "Comedy" votes 3147 rating 5.9 release_year 2016 
+HSET "movie:270" movie_name "Ah-ga-ssi" category "Drama" votes 7135 rating 8.1 release_year 2016 
+HSET "movie:271" movie_name "Ice Age: Collision Course" category "Animation" votes 21966 rating 5.7 release_year 2016 
+HSET "movie:272" movie_name "13 Hours" category "Action" votes 59515 rating 7.3 release_year 2016 
+HSET "movie:273" movie_name "La La Land" category "Comedy" votes 1473 rating 8.6 release_year 2016 
+HSET "movie:274" movie_name "I'm Not Ashamed" category "Biography" votes 345 rating 6.1 release_year 2016 
+HSET "movie:275" movie_name "The Edge of Seventeen" category "Comedy" votes 305 rating 7.7 release_year 2016 
+HSET "movie:276" movie_name "Jason Bourne" category "Action" votes 87772 rating 6.8 release_year 2016 
+HSET "movie:277" movie_name "American Honey" category "Drama" votes 2493 rating 7.5 release_year 2016 
+HSET "movie:278" movie_name "Mechanic: Resurrection" category "Action" votes 18817 rating 5.7 release_year 2016 
+HSET "movie:279" movie_name "Busanhaeng" category "Action" votes 22742 rating 7.6 release_year 2016 
+HSET "movie:280" movie_name "Grimsby" category "Action" votes 50897 rating 6.2 release_year 2016 
+HSET "movie:281" movie_name "Hell or High Water" category "Crime" votes 15385 rating 8.2 release_year 2016 
+HSET "movie:282" movie_name "10 Cloverfield Lane" category "Drama" votes 149415 rating 7.3 release_year 2016 
+HSET "movie:283" movie_name "The Finest Hours" category "Action" votes 34666 rating 6.8 release_year 2016 
+HSET "movie:284" movie_name "Top Gun" category "Action" votes 273458 rating 6.9 release_year 1986 plot "As students at the United States Navy's elite fighter weapons school compete to be best in the class,one daring young pilot learns a few things from a civilian instructor that are not taught in the classroom." poster "https://m.media-amazon.com/images/M/MV5BZjQxYTA3ODItNzgxMy00N2Y2LWJlZGMtMTRlM2JkZjI1ZDhhXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg" 
+HSET "movie:295" movie_name "Guardians of the Galaxy Vol. 2" category "Action" votes 531435 rating 7.6 release_year 2017  plot "The Guardians struggle to keep together as a team while dealing with their personal family issues notably Star-Lord's encounter with his father the ambitious celestial being Ego." poster "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg" imdb_id "tt3896198" 
+HSET "movie:286" movie_name "Battle for the Lost Planet (Galaxy)" category "Action" votes 263 rating 4.3 release_year 2017 plot "After hijacking a space shuttle,a spy finds that the controls are malfunctioning and sees alien battleships approaching Earth. Many years later,when the arc of his flight path returns to earth,he finds the planet under alien domination." poster "https://m.media-amazon.com/images/M/MV5BOTBhMGNhMTUtNTUwNS00NmYwLWI1ZmEtZWVlMTU4NDE3ZTFhXkEyXkFqcGdeQXVyMTQ2MjQyNDc@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:290" movie_name "Star Wars: Episode I - The Phantom Menace" category "Action" votes 698056 rating 6.5 release_year 1999 plot "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force,but the long dormant Sith resurface to claim their old glory." poster "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt0120915" 
+HSET "movie:291" movie_name "Star Wars: Episode II - Attack of the Clones" category "Action" votes 618036 rating 6.5 release_year 2002 plot "Ten years after initially meeting,Anakin Skywalker shares a forbidden romance with Padmé Amidala,while Obi-Wan Kenobi investigates an assassination attempt on the senator and discovers a secret clone army crafted for the Jedi." poster "https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt0121765" 
+HSET "movie:292" movie_name "Star Wars: Episode III - Revenge of the Sith" category "Action" votes 679858 rating 7.5 release_year 2005 plot "Three years into the Clone Wars,the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat,Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy." poster "https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_UY268_CR9,0,182,268_AL_.jpg" imdb_id "tt0121766" 
+HSET "movie:288" movie_name "Star Wars: Episode IV - A New Hope" category "Action" votes 1181515 rating 8.6 release_year 1977 plot "Luke Skywalker joins forces with a Jedi Knight,a cocky pilot,a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station,while also attempting to rescue Princess Leia from the mysterious Darth Vader." poster "https://m.media-amazon.com/images/M/MV5BNzVlY2MwMjktM2E4OS00Y2Y3LWE3ZjctYzhkZGM3YzA1ZWM2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt0076759" 
+HSET "movie:293" movie_name "Star Wars: Episode V - The Empire Strikes Back" category "Action" votes 1109656 rating 8.7 release_year 1980  plot "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth Luke Skywalker begins Jedi training with Yoda while his friends are pursued by Darth Vader and a bounty hunter named Boba Fett all over the galaxy." poster "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg" imdb_id "tt0080684" 
+HSET "movie:294" movie_name "Star Wars: Episode VI - Return of the Jedi" category "Action" votes 906260 rating 8.3 release_year 1983  plot "After a daring mission to rescue Han Solo from Jabba the Hutt the Rebels dispatch to Endor to destroy the second Death Star. Meanwhile Luke struggles to help Darth Vader back from the dark side without falling into the Emperor's trap." poster "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg" imdb_id "tt0086190" 
+HSET "movie:101" movie_name "Star Wars: Episode VII - The Force Awakens" category "Action" votes 831843 rating 7.9 release_year 2015 plot "Three decades after the Empire's defeat,a new threat arises in the militant First Order. Defected stormtrooper Finn and the scavenger Rey are caught up in the Resistance's search for the missing Luke Skywalker." poster "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt2488496" 
+HSET "movie:289" movie_name "Star Wars: Episode VIII - The Last Jedi" category "Action" votes 531361 rating 7.0 release_year 2017 plot "Rey develops her newly discovered abilities with the guidance of Luke Skywalker,who is unsettled by the strength of her powers. Meanwhile,the Resistance prepares for battle with the First Order" poster "https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg" imdb_id "tt2527336" 
+HSET "movie:287" movie_name "Star Wars: Episode IX - The Rise of Skywalker" category "Action" votes 295585 rating 6.7 release_year 2019 plot "The surviving members of the resistance face the First Order once again,and the legendary conflict between the Jedi and the Sith reaches its peak bringing the Skywalker saga to its end" poster "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_UX182_CR0,0,182,268_AL_.jpg" 
+HSET "movie:296" movie_name "Once Upon a Time in the West" category "Western" votes 285258 rating 8.5 release_year 1968  plot "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad." poster "https://m.media-amazon.com/images/M/MV5BZGI5MjBmYzYtMzJhZi00NGI1LTk3MzItYjBjMzcxM2U3MDdiXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg" imdb_id "tt0064116" " 
+HSET "movie:297" movie_name "Pod livnem pul" category "Drama" votes 33 rating 6.6 release_year 2006  plot "Crimea Ukraine ca 1942. WWII. An elite squad of \"razvedchiks\" - army scouts - is sent deep behind German lines on a series of dangerous but vital reconnaissance missions for the Red Army." poster "https://m.media-amazon.com/images/M/MV5BNDlkZmUwMGEtMTJmNC00ODlmLTk3NjYtMDc1MjViOWRlM2YxXkEyXkFqcGdeQXVyNjExMjE5OTM@._V1_SX300.jpg" imdb_id "tt0902116" 
+HSET "movie:298" movie_name "Un homme pressé" category "Comedy" votes 956 rating 6.4 release_year 2018  plot "Based on the life of the former head of Peugeot Christian Stieff the film serves as a wake up call for those enslaved in the unrelenting arduousness of contemporary existence. A high ..." poster "https://m.media-amazon.com/images/M/MV5BZjU1MGQyN2MtYjIyMC00YTVkLTlmMWUtZThiOTJiOTQxYTVmXkEyXkFqcGdeQXVyMjY1OTM1Mzc@._V1_SX300.jpg" imdb_id "tt6948326" 
+HSET "movie:299" movie_name "Pulp" category "Comedy" votes 2033 rating 6.0 release_year 1972  plot "A seedy writer of sleazy pulp novels is recruited by a quirky reclusive ex-actor to help him write his biography at his house in Malta." poster "https://m.media-amazon.com/images/M/MV5BYjA1YTc5YTEtOWRkMy00MjY0LWFhN2YtM2JkYzFlOTcxMTFhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjI4MjA5MzA@._V1_SX300.jpg" imdb_id "tt0069134" 
+HSET "movie:301" movie_name "Raiders of the Lost Ark" category "Action" votes 844506 rating 8.4 release_year 1981  plot "In 1936 archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers." poster "https://m.media-amazon.com/images/M/MV5BMjA0ODEzMTc1Nl5BMl5BanBnXkFtZTcwODM2MjAxNA@@._V1_SX300.jpg" imdb_id "tt0082971" 
+HSET "movie:302" movie_name "E.T. the Extra-Terrestrial" category "Family" votes 353257 rating 7.8 release_year 1982  plot "A troubled child summons the courage to help a friendly alien escape Earth and return to his home world." poster "https://m.media-amazon.com/images/M/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" imdb_id "tt0083866" 
+HSET "movie:304" movie_name "The Terminator" category "Action" votes 768770 rating 8.0 release_year 1984  plot "In 1984 a human soldier is tasked to stop an indestructible cyborg killing machine both sent from 2029 from executing a young woman whose unborn son is the key to humanity's future salvation." poster "https://m.media-amazon.com/images/M/MV5BYTViNzMxZjEtZGEwNy00MDNiLWIzNGQtZDY2MjQ1OWViZjFmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg" imdb_id "tt0088247" 
+HSET "movie:305" movie_name "Back to the Future" category "Adventure" votes 985123 rating 8.5 release_year 1985  plot "Marty McFly a 17-year-old high school student is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend the eccentric scientist Doc Brown." poster "https://m.media-amazon.com/images/M/MV5BZmU0M2Y1OGUtZjIxNi00ZjBkLTg1MjgtOWIyNThiZWIwYjRiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg" imdb_id "tt0088763" 
+HSET "movie:306" movie_name "The Fly" category "Drama" votes 151646 rating 7.5 release_year 1986  plot "A brilliant but eccentric scientist begins to transform into a giant man/fly hybrid after one of his experiments goes horribly wrong." poster "https://m.media-amazon.com/images/M/MV5BODcxMGMwOGEtMDUxMi00MzE5LTg4YTYtYjk1YjA4MzQxNTNlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg" imdb_id "tt0091064" 

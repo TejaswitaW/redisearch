@@ -1,0 +1,4 @@
+LIMIT FROM TO
+Count movies in the database,
+> FT.SEARCH idx:movie "*" LIMIT 0 0
+"*" means you want all the movies

@@ -1,0 +1,29 @@
+Find number of logins per year per month
+> FT.SEARCH idx:user "*" RETURN 1 last_login
+
+Grouping by last_login
+> FT.AGGREGATE idx:user "*" GROUPBY 1 @last_login
+
+Using APPLY function,
+> FT.AGGREGATE idx:user "*" APPLY YEAR(@last_login) AS year GROUPBY 1 @last_login
+Above query will not work , as we have given alias for last_login year, we have to use that,
+> FT.AGGREGATE idx:user "*" APPLY YEAR(@last_login) AS year GROUPBY 1 @year
+Getting month Too,
+> FT.AGGREGATE idx:user "*" APPLY YEAR(@last_login) AS year APPLY dayofmonth(@last_login) AS month GROUPBY 1 @year
+> FT.AGGREGATE idx:user "*" APPLY YEAR(@last_login) AS year APPLY dayofmonth(@last_login) AS month GROUPBY 2 @year @month
+> FT.AGGREGATE idx:user "*" APPLY YEAR(@last_login) AS year APPLY monthofyear(@last_login) AS month GROUPBY 2 @year @month
+To get count
+> FT.AGGREGATE idx:user "*" APPLY YEAR(@last_login) AS year APPLY monthofyear(@last_login) AS month GROUPBY 2 @year @month REDUCE count 0 AS count_user_logins
+We want to start month from 1 default is 0
+> FT.AGGREGATE idx:user "*" APPLY YEAR(@last_login) AS year APPLY monthofyear(@last_login)+1 AS month GROUPBY 2 @year @month REDUCE count 0 AS count_user_logins
+Now sorting by year
+> FT.AGGREGATE idx:user "*" APPLY YEAR(@last_login) AS year APPLY monthofyear(@last_login)+1 AS month GROUPBY 2 @year @month REDUCE count 0 AS count_user_logins SORTBY 2 @year DESC
+Sorting by month
+> FT.AGGREGATE idx:user "*" APPLY YEAR(@last_login) AS year APPLY monthofyear(@last_login)+1 AS month GROUPBY 2 @year @month REDUCE count 0 AS count_user_logins SORTBY 4 @year DESC
+@month ASC
+
+Example 2 Number of logins per weekday
+> FT.AGGREGATE idx:user "*" APPLY dayofweek(@last_login) AS weekday GROUPBY 1 @weekday REDUCE count 0 AS count_user_logins_weekday SORTBY 2 @weekday DESC
+We can use count_user_logins_weekday this alias instead of weekday in SORTBY
+> FT.AGGREGATE idx:user "*" APPLY dayofweek(@last_login)+1 AS weekday GROUPBY 1 @weekday REDUCE count 0 AS count_user_logins_weekday SORTBY 2 @weekday DESC
+

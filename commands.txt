@@ -1,0 +1,14 @@
+S C:\Users\pytho> docker cp D:\redisearch\import_users.redis redisearch:/data/import_users.redis
+Successfully copied 1.57MB to redisearch:/data/import_users.redis
+PS C:\Users\pytho> docker exec -it redisearch sh -c 'cat /data/import_users.redis | redis-cli --pipe'
+All data transferred. Waiting for the last reply...
+Last reply received from server.
+errors: 0, replies: 5997
+
+> FT.CREATE idx:movie ON hash PREFIX 1 "movie:" SCHEMA movie_name TEXT SORTABLE release_year NUMERIC SORTABLE category TAG SORTABLE rating NUMERIC SORTABLE plot TEXT
+
+> FT.CREATE idx:actor ON hash PREFIX 1 "actor:" SCHEMA first_name TEXT SORTABLE last_name TEXT SORTABLE date_of_birth NUMERIC SORTABLE 
+
+> FT.CREATE idx:theater ON hash PREFIX 1 "theater:" SCHEMA name TEXT SORTABLE location GEO
+
+> FT.CREATE idx:user ON hash PREFIX 1 "user:" SCHEMA gender TAG country TAG SORTABLE last_login NUMERIC SORTABLE location GEO

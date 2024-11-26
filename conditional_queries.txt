@@ -1,0 +1,19 @@
+Get all movies with word heat or related to heat
+> FT.SEARCH idx:movie heat RETURN 2 movie_name release_year
+
+Get all movies with title containing the word heat or related to heat
+> FT.SEARCH idx:movie @movie_name:heat RETURN 2 movie_name release_year
+
+Get all movies with title containing the word heat and does not contain california
+> FT.SEARCH idx:movie "@movie_name:(heat -california)" RETURN 2 movie_name release_year
+
+Find all the "Drama" or "Comedy" movies that have "heat" in the movie_name 
+> FT.SEARCH idx:movie "@movie_name:(heat) @category:{drama|comedy}" RETURN 2 movie_name release_year
+
+To make either condition satisified return data
+>FT.SEARCH idx:movie "@movie_name:(heat) |  @category:{drama|comedy}" RETURN 3 movie_name release_year category
+
+Find all "Mystery" OR "Thriller" movies, released in 2014 OR 2018
+ Step 1.>FT.SEARCH idx:movie "@category:{mystery|thriller}" RETURN 3 movie_name release_year category
+ Step 2.>FT.SEARCH idx:movie "@category:{mystery|thriller} (@release_year:[2014 2014] |@release_year:[2018 2018])" RETURN 3 movie_name release_year category
+

@@ -1,0 +1,24 @@
+1. Diconnected redisearch container from default network
+> docker network disconnect bridge redisearch
+
+2. Created new network
+> docker network create redis-network
+
+3. Connected redisearch to newly created network
+> docker network connect redis-network redisearch
+
+4. Created docker container for redisinsight
+> docker run -d --name redisinsight --network redis-network -p 8001:8001 redis/redisinsight:latest
+
+http://172.23.0.2:8001
+http://172.26.64.1:5002
+docker exec -it tsw_redisinsight /bin/sh
+docker restart tsw_redisinsight
+
+/usr/src/app # curl http://172.26.64.1:5002
+curl: (52) Empty reply from server
+
+/usr/src/app $ cd redisinsight/
+/usr/src/app/redisinsight $ ls
+LICENSE  api      ui
+dist/          node_modules/

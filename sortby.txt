@@ -1,0 +1,2 @@
+Get all the "action" movies,sorted by release_year from recent to the oldest.
+> FT.SEARCH idx:movie "@category:{action}" SORTBY release_year DESC RETURN 2 movie_name release_year

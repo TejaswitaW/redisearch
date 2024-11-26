@@ -1,0 +1,14 @@
+Listing Index:
+FT._LIST
+
+Get particular index information:
+FT.INFO "index_name"
+FT.INFO idx:movie
+
+How to alter index :
+FT.ALTER "index_name"
+FT.ALTER idx:movie SCHEMA ADD plot TEXT WEIGHT 0.5
+
+Drop Index:
+FT.DROPINDEX "index_name"
+FT.DROPINDEX idx:movie

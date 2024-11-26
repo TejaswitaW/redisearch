@@ -1,0 +1,14 @@
+Search all movies from 1995 to 2000
+> FT.SEARCH idx:movie "@release_year:[1995 2000]" RETURN 2 movie_name release_year
+
+Get all movies which release_year is greater than or eqaul to 2000
+> FT.SEARCH idx:movie "@release_year:[2000 +inf]" RETURN 2 movie_name release_year
+
+All the movies greater than 2000
+> FT.SEARCH idx:movie "@release_year:[(2000 +inf]" RETURN 2 movie_name release_year
+
+All the movies less than 2000
+> FT.SEARCH idx:movie "@release_year:[-inf (2000]" RETURN 2 movie_name release_year
+
+All the movies less than eqaul to 2000
+> FT.SEARCH idx:movie "@release_year:[-inf 2000]" RETURN 2 movie_name release_year

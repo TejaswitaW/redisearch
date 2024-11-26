@@ -1,0 +1,15 @@
+1. Using @fieldname:[value1 value2]
+Get all movies released between 1970 and 1980
+> FT.SEARCH idx:movie "@release_year:[1970 1980]" RETURN 2 movie_name release_year
+
+2.Using FILTER parameter
+* FILTER fieldname value1 value2
+Get all movies released between 1970 and 1980
+> FT.SEARCH idx:movie * FILTER release_year 1970 1980 RETURN 2 movie_name release_year
+"*" means everything and then you have a filter
+
+EXcluding a value
+Use left bracket (1980 dont close it,
+Exclude movies of 1980
+> FT.SEARCH idx:movie "@release_year:[1970 (1980]" RETURN 2 movie_name release_year
+> FT.SEARCH idx:movie "@release_year:[1970 (1995]" RETURN 2 movie_name release_year

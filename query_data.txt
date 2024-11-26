@@ -1,0 +1,3 @@
+Search all the data:
+I want all the movies that contain string "war"
+> FT.SEARCH idx:movie "war" 

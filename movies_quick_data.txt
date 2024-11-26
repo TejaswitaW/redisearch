@@ -1,0 +1,15 @@
+> HSET movie:1 movie_name "Star Wars: Episode V - The Empire Strikes Back" plot "After the Rebels are brutally overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins Jedi training with Yoda, while his friends are pursued by Darth Vader and a bounty hunter named Boba Fett all over the galaxy." release_year 1980 category "Action" rating 8.7 votes 1127635 imdb_id tt0080684
+
+> HSET movie:2 movie_name "The Godfather" plot "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son." release_year 1972 category "Drama" rating 9.2 votes 1563839 imdb_id tt0068646
+
+> HSET movie:3 movie_name "Heat" plot "A group of professional bank robbers start to feel the heat from police when they unknowingly leave a clue at their latest heist." release_year 1995 category "Thriller" rating 8.2 votes 559490 imdb_id tt0113277
+
+> HSET movie:4 movie_name "Star Wars: Episode VI - Return of the Jedi" category "Action" votes 906260 rating 8.3 release_year 1983  plot "The Rebels dispatch to Endor to destroy the second Empire's Death Star." imdb_id "tt0086190" 
+
+> HSET movie:5 movie_name "Minions" category "Comedy" votes 906260 rating 9.3 release_year 2010  plot "Search of despicable master." imdb_id "tsw041184" 
+
+Update movie data:
+HSET movie:5 movie_name "Minions-I love you!!"
+
+Delete the movie:
+EXPIRE movie:5 20

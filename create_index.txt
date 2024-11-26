@@ -1,0 +1,51 @@
+ Create an index:
+ > FT.CREATE idx:movie ON hash PREFIX 1 "movie" SCHEMA movie_name TEXT SORTABLE release_year NUMERIC SORTABLE rating NUMERIC SORTABLE category TAG SORTABLE
+
+ Get value of the index,this gives all information about the index:
+ > FT.INFO idx:movie
+
+ Get all the movies that contains the string "war"
+ > FT.SEARCH idx:movie war
+
+ Get all the movies that contains the string "war" but not "jedi"
+ > FT.SEARCH idx:movie "war -jedi"
+
+ Returns particular fields only
+ RETURN <numberOfFields> <field1> <field2>
+ > FT.SEARCH idx:movie war RETURN 2 movie_name release_year
+
+ 127.0.0.1:6379> FT.SEARCH idx:movie war RETURN 2 movie_name release_year
+1) (integer) 2
+2) "movie:1"
+3) 1) "movie_name"
+   2) "Star Wars: Episode V - The Empire Strikes Back"
+   3) "release_year"
+   4) "1980"
+4) "movie:4"
+5) 1) "movie_name"
+   2) "Star Wars: Episode VI - Return of the Jedi"
+   3) "release_year"
+   4) "1983"
+
+Query on particular field:
+@field
+FT.SEARCH idx:movie "@movie_name:war" RETURN 2 movie_name release_year
+
+Fuzzy Search(% %)
+Get all movies using fuzzy search 'gdfather'
+> FT.SEARCH idx:movie "%gdfather%" RETURN 2 movie_name release_year
+
+Search based on a value
+@fieldname:{value}
+> FT.SEARCH idx:movie "@category:{thriller}" RETURN 3 movie_name release_year category
+
+If you want multiple values from single field
+@fieldname:{value1|value2}
+> FT.SEARCH idx:movie "@category:{thriller|action}" RETURN 3 movie_name release_year category
+
+Apply multiple filters
+@fieldname:{value} @fieldname:{value}
+Get all the thriller action movies those does not have a jedi in the movie name
+> FT.SEARCH idx:movie "@category:{thriller|action} @movie_name:-jedi" RETURN 3 movie_name release_year category
+
+
